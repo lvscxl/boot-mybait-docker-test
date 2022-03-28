@@ -9,6 +9,5 @@ import java.util.List;
 @Mapper
 //public interface SchoolMapper extends BaseMapper<School> {
 public interface SchoolMapper  {
-
    List<School> getSchoolFromMapper();
 }
