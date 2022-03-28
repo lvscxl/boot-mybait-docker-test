@@ -2,11 +2,11 @@ package com.zp.bootmybaitdockertest.user.controller;
 
 import com.zp.bootmybaitdockertest.user.entity.School;
 import com.zp.bootmybaitdockertest.user.service.SchoolService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 @RestController
@@ -14,7 +14,7 @@ import java.util.List;
 public class UserController {
 
 
-    @Resource
+    @Autowired
     SchoolService schoolService;
 
     @GetMapping("getUser")
