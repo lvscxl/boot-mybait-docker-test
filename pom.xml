@@ -12,6 +12,7 @@
     <artifactId>boot-mybait-docker-test</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>boot-mybait-docker-test</name>
+    <packaging>jar</packaging>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
@@ -104,6 +105,7 @@
     </dependencies>
 
     <build>
+        <finalName>boot-mybait-docker-test-0.0.1</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
